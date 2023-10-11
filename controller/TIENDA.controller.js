@@ -7,7 +7,7 @@ async createTIENDA(request, response){
 try{
     /**
         * body es
-*{
+*{ CAMPOS que van a estar en la BD
    * nombre: lapices,
    * descripcion:grafito negro,
    * cantidad:20,

@@ -2,7 +2,7 @@ import express from "express";
 import TIENDAcontroller from "../controller/TIENDA.controller.js";
 
 const router = express.Router();
-//endpoints
+//endpoints para la API TIENDA
 
 router.get('/TIENDA/:id', TIENDAcontroller.getTIENDAById);
 router.post('/TIENDA', TIENDAcontroller.createTIENDA);

@@ -15,7 +15,7 @@ class TiendaDAO{
         return id
     }
 async getTiendaById(id){
-    const tienda = await db('productos') // query version knex
+    const tienda = await db('productos') // Este es un query en  version knex
     .select('*')
     .where ({id})
     .first();
